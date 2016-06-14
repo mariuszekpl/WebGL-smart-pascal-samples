@@ -83,6 +83,7 @@ var
   V: array [0..2] of Vector3;
   I: Integer;
   N, W: Vector3;
+  tmpNorms: Vector3;
 
   procedure AddSquare(U1, U2, V1, V2: Vector3);
   begin
@@ -119,9 +120,14 @@ begin
       Verts.Push(U[I]);
       Verts.Push(U[I+1]);
       Verts.Push(U[I+2]);
-      Norms.Push([0.0,0.0,1.0]);
-      Norms.Push([0.0,0.0,1.0]);
-      Norms.Push([0.0,0.0,1.0]);
+
+      tmpNorms[0] := 0.0;
+      tmpNorms[1] := 0.0;
+      tmpNorms[2] := 1.0;
+
+      Norms.Push(tmpNorms);// Norms.Push([0.0,0.0,1.0]);
+      Norms.Push(tmpNorms);// Norms.Push([0.0,0.0,1.0]);
+      Norms.Push(tmpNorms);// Norms.Push([0.0,0.0,1.0]);
 
       V[0] := U[I].Add(Delta);
       V[1] := U[I+1].Add(Delta);
@@ -129,9 +135,14 @@ begin
       Verts.Push(V[0]);
       Verts.Push(V[1]);
       Verts.Push(V[2]);
-      Norms.Push([0.0,0.0,-1.0]);
-      Norms.Push([0.0,0.0,-1.0]);
-      Norms.Push([0.0,0.0,-1.0]);
+
+      tmpNorms[0] := 0.0;
+      tmpNorms[1] := 0.0;
+      tmpNorms[2] := -1.0;
+
+      Norms.Push(tmpNorms);// wrong version ! Norms.Push([0.0,0.0,-1.0]);
+      Norms.Push(tmpNorms);// wrong version ! Norms.Push([0.0,0.0,-1.0]);
+      Norms.Push(tmpNorms);// wrong version ! Norms.Push([0.0,0.0,-1.0]);
 
       AddSquare(U[I], U[I+1], V[0], V[1]);
       AddSquare(U[I+1], U[I+2], V[1], V[2]);
@@ -173,6 +184,7 @@ var
   var
     V, N: TVertices;
     I: Integer;
+    tmpWeight: Vector3;
   begin
     if Text = '' then Exit;
     dx := -TextWidth(Text) * 0.5;
@@ -185,8 +197,11 @@ var
     for I := 0 to High(V) do
     begin
       Data.Vertices.Push(V[I]);
-      Data.Normals.Push(N[I]);
-      Data.Weights.Push([0.0, 0.0, (V[I][1]-dy-0.5)*2]);
+      Data.Normals.Push(N[I]); // tutaj jest problem !!!!!
+      tmpWeight[0] := 0.0;
+      tmpWeight[1] := 0.0;
+      tmpWeight[2] := (V[I][1]-dy-0.5)*2;
+      Data.Weights.Push(tmpWeight);// wrong version !  Data.Weights.Push([0.0, 0.0, (V[I][1]-dy-0.5)*2]);
     end;
   end;
 

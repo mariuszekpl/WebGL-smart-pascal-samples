@@ -39,10 +39,18 @@ procedure RandSeed(Seed: Integer);
 
 implementation
 
+
+
 procedure ActiveTexture(ID: Integer);
 begin
   gl.activeTexture(gl.TEXTURE0 + ID);
 end;
+
+
+type JWebGLContextAttributes = class
+  alpha,stencil,premultipliedAlpha,preserveDrawingBuffer,antialias,depth: boolean;
+end;
+
 
 procedure InitializeWebGL(Canvas: TW3GraphicContext);
 var
