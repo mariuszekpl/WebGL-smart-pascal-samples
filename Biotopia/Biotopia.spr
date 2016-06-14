@@ -1,0 +1,12 @@
+uses 
+  SmartCL.System, SmartCL.Application, MainForm;
+
+var Application: TW3CustomApplication;
+try
+  Application := TW3CustomApplication.Create;
+  Application.CreateForm(TMainForm, True);
+  Application.RunApp;
+except
+  on e: Exception do
+    ShowMessage(e.Message);
+end;

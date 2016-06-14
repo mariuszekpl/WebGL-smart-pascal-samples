@@ -1,0 +1,176 @@
+<SMART>
+  <Project version="2" subversion="0">
+    <Name>Biotopia</Name>
+    <Created>T00:00:00.000</Created>
+    <Modified>2014-09-03T14:28:06.908</Modified>
+    <Version>
+      <Major>0</Major>
+      <Minor>0</Minor>
+      <Revision>0</Revision>
+    </Version>
+    <Apple>
+      <FormatDetection>1</FormatDetection>
+      <StatusBarStyle>default</StatusBarStyle>
+      <WebAppCapable>1</WebAppCapable>
+    </Apple>
+    <Options>
+      <Compiler>
+        <Assertions>1</Assertions>
+        <Optimize>1</Optimize>
+        <HintsLevel>1</HintsLevel>
+      </Compiler>
+      <Codegen>
+        <Obfuscation>1</Obfuscation>
+        <RangeChecking>0</RangeChecking>
+        <InstanceChecking>0</InstanceChecking>
+        <ConditionChecking>0</ConditionChecking>
+        <LoopChecking>0</LoopChecking>
+        <InlineMagics>1</InlineMagics>
+        <EmitSourceLocation>0</EmitSourceLocation>
+        <EmitRTTI>0</EmitRTTI>
+        <Devirtualize>1</Devirtualize>
+        <MainBody>1</MainBody>
+        <SmartLinking>1</SmartLinking>
+        <Verbosity>1</Verbosity>
+      </Codegen>
+      <ConditionalDefines>
+        <HandleExceptions>0</HandleExceptions>
+        <AutoRefresh>0</AutoRefresh>
+      </ConditionalDefines>
+      <Linker>
+        <SourceMap>0</SourceMap>
+        <CompressCSS>1</CompressCSS>
+        <GenerateMobileManifest>1</GenerateMobileManifest>
+        <GenerateChromeManifest>0</GenerateChromeManifest>
+        <GenerateFireFoxManifest>0</GenerateFireFoxManifest>
+        <GenerateWidgetPackageConfigXML>0</GenerateWidgetPackageConfigXML>
+        <ExternalCSS>1</ExternalCSS>
+        <Theme>Android-Holo.css</Theme>
+        <CustomTheme>0</CustomTheme>
+        <EmbedJavaScript>1</EmbedJavaScript>
+      </Linker>
+      <Output>
+        <HtmlFileName>index.html</HtmlFileName>
+        <OutputFilePath>www\</OutputFilePath>
+      </Output>
+      <Import />
+      <Execute>
+        <ServeManifest>0</ServeManifest>
+        <Server>1</Server>
+        <PauseAfterExecution>0</PauseAfterExecution>
+        <ExecuteType>0</ExecuteType>
+      </Execute>
+    </Options>
+    <Files>
+      <File type="main">
+        <Name>Biotopia</Name>
+        <Created>2013-09-30T00:45:59.959Z</Created>
+        <Modified>2014-09-03T14:19:47.235</Modified>
+        <Filename>Biotopia.spr</Filename>
+      </File>
+      <File type="unit">
+        <Name>BinaryFile</Name>
+        <Created>2013-02-04T18:05:03.000Z</Created>
+        <Modified>2014-09-03T14:20:53.531</Modified>
+        <Filename>BinaryFile.pas</Filename>
+      </File>
+      <File type="unit">
+        <Name>CFDGDemo</Name>
+        <Created>2013-02-09T14:51:12.000Z</Created>
+        <Modified>2014-09-03T14:23:09.534</Modified>
+        <Filename>CFDGDemo.pas</Filename>
+      </File>
+      <File type="unit">
+        <Name>CFDGParser</Name>
+        <Created>2013-02-09T21:04:48.000Z</Created>
+        <Modified>2014-09-03T14:24:09.827</Modified>
+        <Filename>CFDGParser.pas</Filename>
+      </File>
+      <File type="unit">
+        <Name>GLCommon</Name>
+        <Created>2013-02-14T16:54:43.000Z</Created>
+        <Modified>2014-09-03T14:27:38.851</Modified>
+        <Filename>GLCommon.pas</Filename>
+      </File>
+      <File type="unit">
+        <Name>Glyphs</Name>
+        <Created>2013-02-25T17:08:27.000Z</Created>
+        <Modified>2014-09-03T13:47:47.200</Modified>
+        <Filename>Glyphs.pas</Filename>
+      </File>
+      <File type="unit">
+        <Name>IsoSurfaces</Name>
+        <Created>2013-02-19T22:52:50.000Z</Created>
+        <Modified>2014-09-03T14:26:35.411</Modified>
+        <Filename>IsoSurfaces.pas</Filename>
+      </File>
+      <File type="unit">
+        <Name>IsosurfaceDemo</Name>
+        <Created>2013-02-21T13:47:47.000Z</Created>
+        <Modified>2014-09-03T14:28:06.908</Modified>
+        <Filename>IsosurfaceDemo.pas</Filename>
+      </File>
+      <File type="form">
+        <Name>MainForm</Name>
+        <Created>2012-05-24T16:40:41.000Z</Created>
+        <Modified>2014-09-03T14:25:07.275</Modified>
+        <Filename>MainForm.pas</Filename>
+        <AutoCreate>
+          <IsAutoCreate>0</IsAutoCreate>
+          <IsMainForm>0</IsMainForm>
+          <Order>0</Order>
+        </AutoCreate>
+      </File>
+      <File type="unit">
+        <Name>MarchingCubes</Name>
+        <Created>2013-02-15T21:39:21.000Z</Created>
+        <Modified>2014-09-03T13:51:32.099</Modified>
+        <Filename>MarchingCubes.pas</Filename>
+      </File>
+      <File type="unit">
+        <Name>ShaderDemo</Name>
+        <Created>2013-02-26T01:34:46.000Z</Created>
+        <Modified>2014-09-03T13:54:53.077</Modified>
+        <Filename>ShaderDemo.pas</Filename>
+      </File>
+      <File type="unit">
+        <Name>Shaders</Name>
+        <Created>2013-02-01T18:30:38.000Z</Created>
+        <Modified>2014-09-03T14:11:16.875</Modified>
+        <Filename>Shaders.pas</Filename>
+      </File>
+      <File type="unit">
+        <Name>TextDemo</Name>
+        <Created>2013-02-25T20:16:26.000Z</Created>
+        <Modified>2014-09-03T14:25:58.155</Modified>
+        <Filename>TextDemo.pas</Filename>
+      </File>
+      <File type="resource">
+        <Name>blue-ball.png</Name>
+        <Created>2013-02-21T16:50:28.000Z</Created>
+        <Modified>2014-09-03T13:48:07.740</Modified>
+        <Filename>blue-ball.png</Filename>
+      </File>
+      <File type="resource">
+        <Name>red-ball.png</Name>
+        <Created>2013-02-21T16:50:36.000Z</Created>
+        <Modified>2014-09-03T13:48:10.189</Modified>
+        <Filename>red-ball.png</Filename>
+      </File>
+      <File type="resource">
+        <Name>green-ball.png</Name>
+        <Created>2013-02-21T16:50:42.000Z</Created>
+        <Modified>2014-09-03T13:48:12.109</Modified>
+        <Filename>green-ball.png</Filename>
+      </File>
+      <File type="resource">
+        <Name>orange-ball.png</Name>
+        <Created>2013-02-21T16:50:50.000Z</Created>
+        <Modified>2014-09-03T13:48:14.213</Modified>
+        <Filename>orange-ball.png</Filename>
+      </File>
+    </Files>
+    <Target>Browser</Target>
+    <Generator>Visual Component Project</Generator>
+  </Project>
+</SMART>
