@@ -95,8 +95,8 @@ begin
 
   // bit of hacking since we use a TW3GraphicContext directly
   // need to make a proper compoent for WebGL!
-  W := Min(Width, 500);
-  H := Min(Height, 500);
+  W := Min(Width, 1024);
+  H := Min(Height, 768);
 
   canvas.Handle.width := W;
   canvas.Handle.height := H;
