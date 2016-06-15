@@ -1,0 +1,91 @@
+<SMART>
+  <Project version="2" subversion="0">
+    <Name>Hello WebGL</Name>
+    <Created>T00:00:00.000</Created>
+    <Modified>2014-07-19T21:14:43.309</Modified>
+    <Author>Eric Grange</Author>
+    <Company>Optimale Systemer</Company>
+    <Version>
+      <Major>2</Major>
+      <Minor>0</Minor>
+      <Revision>0</Revision>
+    </Version>
+    <Apple>
+      <FormatDetection>1</FormatDetection>
+      <StatusBarStyle>default</StatusBarStyle>
+      <WebAppCapable>1</WebAppCapable>
+    </Apple>
+    <Options>
+      <Compiler>
+        <Assertions>1</Assertions>
+        <Optimize>1</Optimize>
+        <HintsLevel>1</HintsLevel>
+      </Compiler>
+      <Codegen>
+        <Obfuscation>0</Obfuscation>
+        <RangeChecking>0</RangeChecking>
+        <InstanceChecking>0</InstanceChecking>
+        <ConditionChecking>0</ConditionChecking>
+        <LoopChecking>0</LoopChecking>
+        <InlineMagics>1</InlineMagics>
+        <EmitSourceLocation>1</EmitSourceLocation>
+        <EmitRTTI>1</EmitRTTI>
+        <Devirtualize>1</Devirtualize>
+        <MainBody>1</MainBody>
+        <SmartLinking>1</SmartLinking>
+        <Verbosity>2</Verbosity>
+      </Codegen>
+      <ConditionalDefines>
+        <HandleExceptions>0</HandleExceptions>
+        <AutoRefresh>0</AutoRefresh>
+      </ConditionalDefines>
+      <Linker>
+        <SourceMap>0</SourceMap>
+        <CompressCSS>1</CompressCSS>
+        <GenerateManifest>0</GenerateManifest>
+        <ExternalCSS>1</ExternalCSS>
+        <Theme>iOS.css</Theme>
+        <CustomTheme>0</CustomTheme>
+        <EmbedJavaScript>1</EmbedJavaScript>
+      </Linker>
+      <Output>
+        <JavaScriptFileName></JavaScriptFileName>
+        <HtmlFileName>index.html</HtmlFileName>
+        <OutputFilePath>www\</OutputFilePath>
+      </Output>
+      <Import>
+        <RODLFile></RODLFile>
+        <DataSnapUrl></DataSnapUrl>
+        <DataSnapUnit></DataSnapUnit>
+      </Import>
+      <Execute>
+        <ServeManifest>0</ServeManifest>
+        <Server>1</Server>
+        <PauseAfterExecution>0</PauseAfterExecution>
+        <ExecuteType>0</ExecuteType>
+        <ExecuteableName></ExecuteableName>
+        <ExecuteableParams>%output%</ExecuteableParams>
+      </Execute>
+    </Options>
+    <Files>
+      <File type="form">
+        <Name>MainForm</Name>
+        <Created>2012-05-24T16:40:41.000Z</Created>
+        <Modified>2014-07-19T21:14:40.999</Modified>
+        <Filename>MainForm.pas</Filename>
+        <AutoCreate>
+          <IsAutoCreate>0</IsAutoCreate>
+          <IsMainForm>0</IsMainForm>
+          <Order>0</Order>
+        </AutoCreate>
+      </File>
+      <File type="main">
+        <Name>Hello WebGL</Name>
+        <Created>2014-05-04T00:39:31.049Z</Created>
+        <Modified>2014-07-19T21:14:41.002</Modified>
+        <Filename>Hello WebGL.spr</Filename>
+      </File>
+    </Files>
+    <Target>Browser</Target>
+  </Project>
+</SMART>
